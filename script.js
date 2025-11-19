@@ -112,7 +112,7 @@ document.getElementById("pauseBtn").addEventListener("click", () => {
 
 document.getElementById("speedBtn").addEventListener("click", () => {
     speedMultiplier = speedMultiplier === 1 ? 2 : 1;
-    document.getElementById("speedBtn").textContent = speedMultiplier === 1 ? "Percepat" : "Normal";
+    document.getElementById("speedBtn").textContent = speedMultiplier === 1 ? "Speed" : "Normal";
 
     if (!isPaused) {
         clearInterval(timeInterval);
@@ -126,7 +126,7 @@ const clouds = [];
 
 document.getElementById("cloudBtn").addEventListener("click", () => {
     spawnCloudMode = !spawnCloudMode;
-    document.getElementById("cloudBtn").textContent = spawnCloudMode ? "Klik di langit untuk spawn awan" : "Awan";
+    document.getElementById("cloudBtn").textContent = spawnCloudMode ? "Click in the sky to spawn clouds" : "Awan";
 });
 
 sky.addEventListener("click", (e) => {
