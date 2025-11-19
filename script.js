@@ -12,7 +12,7 @@ const skyColors = {
 
 const times = ["subuh", "pagi", "siang", "sore", "magrib", "malam"];
 let index = 0;
-const totalDuration = 15000;
+const totalDuration = 100000;
 let stepTime = totalDuration / times.length;
 
 // ================= BINTANG ===================
